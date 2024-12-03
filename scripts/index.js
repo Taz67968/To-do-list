@@ -8,6 +8,6 @@ submitButton.addEventListener('click', () => {
   tasklist.append(uliterm)
   listInput.value = ''
   uliterm.addEventListener('click', () => {
-   uliterm.style.textDecoration = 'line-through'
+    uliterm.style.textDecoration = 'line-through'
   })
 })
